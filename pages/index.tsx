@@ -5,7 +5,7 @@ import { beforeAuthorize } from '../src/test/mock/auth_result'
 import Router from 'next/router'
 
 const App: NextPage = ({ status }: InferGetServerSidePropsType<typeof getServerSideProps>) => {
-    return <></>
+    return <>Main</>
 }
 
 export default App
