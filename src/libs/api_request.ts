@@ -10,5 +10,5 @@ interface Parameter {
 }
 
 export const getApiResponse = (props: Parameter) => {
-    const res = 
+    // const res = 
 }
