@@ -1,13 +1,20 @@
 export const beforeAuthorize = () => false
 
-export const authorizeFail = () => {
-    setTimeout(() => console.log('case fail'), 100)
-    return 'fail'
-}
 export const authorizeSuccess = () => {
     setTimeout(() => console.log('case success'), 100)
     return 'success'
 }
+
+export const expiredAuthToken = () => {
+    setTimeout(() => console.log('case expired auth_token'), 100)
+    return 'success_expired'
+}
+
+export const expiredRefreshToken = () => {
+    setTimeout(() => console.log('case expired refresh_token'), 100)
+    return 'refresh_expired'
+}
+
 export const authorizeRefresh = (): string => {
     setTimeout(() => console.log('case refresh'), 100)
     return 'refresh'

@@ -1,8 +1,7 @@
-
 import type { NextPage } from 'next'
 
-const App: NextPage = () => {
+const Main: NextPage = () => {
     return <>Main</>
 }
 
-export default App
+export default Main
